@@ -1,0 +1,42 @@
+/* const Container = styled.div`
+  position: relative;
+  min-height: 100px;
+  overflow-x: auto;
+  ${({ feesTable, colorSchema }) =>
+    feesTable || colorSchema ? 'overflow: visible;' : ''} */
+
+table {
+  /* color: var(--mainText); */
+  font-size: 0.875rem;
+  width: 100%;
+  margin: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  border-top: 1px solid rgb(179, 179, 179);
+  border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+thead {
+  color: #000;
+  background-color: #fff;
+}
+
+th {
+  position: relative;
+}
+
+td {
+  margin: 0;
+  text-align: left;
+  padding: 18px 16px;
+  border-bottom: 1px solid grey;
+  max-width: 100%;
+}
+
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+  text-decoration: underline;
+  text-align: left;
+}

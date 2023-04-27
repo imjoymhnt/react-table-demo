@@ -11,6 +11,7 @@ import {
 import GlobalSearch from "./GlobalSearch";
 import { matchSorter } from "match-sorter";
 import Pagination from "./Pagination";
+import "./tableStyle.css";
 
 const Table = () => {
   const [products, setProducts] = React.useState([]);
